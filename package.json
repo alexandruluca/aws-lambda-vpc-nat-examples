@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "sls offline start",
     "eslint": "eslint -c .eslintrc.js --ignore-path .gitignore .",
-    "deploy": "yarn eslint && sls deploy"
+    "deploy": "sls deploy"
   },
   "private": false,
   "devDependencies": {
