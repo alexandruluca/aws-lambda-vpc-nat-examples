@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "sls offline start",
     "eslint": "eslint -c .eslintrc.js --ignore-path .gitignore .",
-    "deploy": "sls deploy"
+    "deploy": "serverless deploy --aws-profile profile_aluca_personal"
   },
   "private": false,
   "devDependencies": {
